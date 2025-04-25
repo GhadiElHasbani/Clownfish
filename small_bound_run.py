@@ -11,5 +11,5 @@ for i in range(model.n_fish):
     plt.plot(model.alpha_history[:, i])
 plt.xlabel("Timestep")
 plt.ylabel("$\\alpha_i$")
-plt.savefig('/Users/Ghadi_1/Desktop/ClownFishSchool_small_alpha_history.png')
-model.animate(save=True, out_file_path="/Users/Ghadi_1/Desktop/ClownFishSchool_animation_small_3d.mp4", limit_axes=True)
+plt.savefig('ClownFishSchool_small_alpha_history.png')
+model.animate(save=True, out_file_path="ClownFishSchool_animation_small_3d.mp4", limit_axes=True)
